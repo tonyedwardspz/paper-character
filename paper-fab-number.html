@@ -56,7 +56,7 @@ Custom property | Description | Default
 
 -->
 
-<dom-module id="paper-fab">
+<dom-module id="paper-fab-number">
   <style>
 
     :host {
@@ -109,6 +109,20 @@ Custom property | Description | Default
       @apply(--paper-fab-iron-icon);
     }
 
+    span {
+      display:-ms-inline-flexbox;
+      display:-webkit-inline-flex;
+      display:inline-flex;-ms-flex-align:center;
+      -webkit-align-items:center;
+      align-items:center;
+      -ms-flex-pack:center;
+      -webkit-justify-content:center;
+      justify-content:center;
+      width:24px;
+      height:24px;
+      font-size: 20px;
+    }
+
     .keyboard-focus {
       background: var(--paper-fab-keyboard-focus-background, --paper-pink-900);
     }
@@ -116,13 +130,13 @@ Custom property | Description | Default
   <template>
     <paper-ripple></paper-ripple>
     <paper-material class$="[[_computeContentClass(receivedFocusFromKeyboard)]]" elevation="[[_elevation]]" animated>
-      <iron-icon id="icon" src="[[src]]" icon="[[icon]]"></iron-icon>
+      <span><content></content></span>
     </paper-material>
   </template>
 </dom-module>
 <script>
   Polymer({
-    is: 'paper-fab',
+    is: 'paper-fab-number',
 
     behaviors: [
       Polymer.PaperButtonBehavior
