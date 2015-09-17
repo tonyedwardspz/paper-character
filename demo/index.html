@@ -27,14 +27,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       min-width: 200px;
     }
 
-    paper-fab {
+    paper-fab-number {
       display: block;
       margin-bottom:24px;
       margin-left: auto;
       margin-right: auto;
     }
 
-    paper-fab.blue {
+    paper-fab-number.blue {
       --paper-fab-background: var(--paper-light-blue-500);
       --paper-fab-keyboard-focus-background: var(--paper-light-blue-900);
     }
@@ -48,6 +48,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <h4>Enabled</h4>
       <div class="horizontal-section">
         <paper-fab-number title="arrow-forward" tabindex="0">1</paper-fab-number>
+        <paper-fab-number mini title="arrow-forward" tabindex="0">1</paper-fab-number>
       </div>
     </div>
 
@@ -55,6 +56,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <h4>Disabled</h4>
       <div class="horizontal-section">
         <paper-fab-number disabled title="arrow-forward" tabindex="0">1</paper-fab-number>
+        <paper-fab-number mini disabled title="arrow-forward" tabindex="0">1</paper-fab-number>
       </div>
     </div>
 
@@ -62,6 +64,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <h4>Colors</h4>
       <div class="horizontal-section">
         <paper-fab-number title="arrow-forward" tabindex="0" class="blue">1</paper-fab-number>
+        <paper-fab-number mini title="arrow-forward" tabindex="0" class="blue">1</paper-fab-number>
       </div>
     </div>
   </div>
