@@ -1,9 +1,9 @@
 {
   "name": "paper-fab-number",
-  "version": "1.0.4",
-  "description": "A material design floating action button for numbers",
+  "version": "0.5.0",
+  "description": "A material design floating action button for charachters",
   "authors": [
-    "The Polymer Authors & Tony Edwards"
+    "Tony Edwards & The Polymer Authors"
   ],
   "keywords": [
     "web-components",
@@ -12,13 +12,13 @@
   ],
   "main": "paper-fab-number.html",
   "ignore": [],
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "git://github.com/tonyedwardspz/paper-fab"
+    "url": "git://github.com/tonyedwardspz/paper-fab-number"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/tonyedwardspz/paper-fab",
+  "homepage": "https://github.com/tonyedwardspz/paper-fab-number",
   "dependencies": {
     "paper-ripple": "polymerelements/paper-ripple#^1.0.0",
     "paper-material": "polymerelements/paper-material#^1.0.0",
