@@ -20,21 +20,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
   <link rel="import" href="../../paper-styles/color.html">
   <link rel="import" href="../../paper-styles/demo-pages.html">
-  <link rel="import" href="../paper-fab-number.html">
+  <link rel="import" href="../paper-character.html">
 
   <style is="custom-style">
     .horizontal-section {
       min-width: 200px;
     }
 
-    paper-fab-number {
+    paper-character {
       display: block;
       margin-bottom:24px;
       margin-left: auto;
       margin-right: auto;
     }
 
-    paper-fab-number.blue {
+    paper-character.blue {
       --paper-fab-background: var(--paper-light-blue-500);
       --paper-fab-keyboard-focus-background: var(--paper-light-blue-900);
     }
@@ -47,24 +47,24 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div>
       <h4>Enabled</h4>
       <div class="horizontal-section">
-        <paper-fab-number title="arrow-forward" tabindex="0">1</paper-fab-number>
-        <paper-fab-number mini title="arrow-forward" tabindex="0">1</paper-fab-number>
+        <paper-character char="13" tabindex="0"></paper-character>
+        <paper-character mini char="A" tabindex="0"></paper-character>
       </div>
     </div>
 
     <div>
       <h4>Disabled</h4>
       <div class="horizontal-section">
-        <paper-fab-number disabled title="arrow-forward" tabindex="0">1</paper-fab-number>
-        <paper-fab-number mini disabled title="arrow-forward" tabindex="0">1</paper-fab-number>
+        <paper-character disabled char="1" tabindex="0"></paper-character>
+        <paper-character mini disabled char="A" tabindex="0"></paper-character>
       </div>
     </div>
 
     <div>
       <h4>Colors</h4>
       <div class="horizontal-section">
-        <paper-fab-number title="arrow-forward" tabindex="0" class="blue">1</paper-fab-number>
-        <paper-fab-number mini title="arrow-forward" tabindex="0" class="blue">1</paper-fab-number>
+        <paper-character char="1" tabindex="0" class="blue"></paper-character>
+        <paper-character mini char="A" tabindex="0" class="blue"></paper-character>
       </div>
     </div>
   </div>

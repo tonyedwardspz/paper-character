@@ -1,5 +1,5 @@
 {
-  "name": "paper-fab-number",
+  "name": "paper-character",
   "version": "0.5.0",
   "description": "A material design floating action button for charachters",
   "authors": [
@@ -10,12 +10,12 @@
     "polymer",
     "button"
   ],
-  "main": "paper-fab-number.html",
+  "main": "paper-character.html",
   "ignore": [],
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git://github.com/tonyedwardspz/paper-fab-number"
+    "url": "git://github.com/tonyedwardspz/paper-character"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/tonyedwardspz/paper-fab-number",
@@ -24,8 +24,6 @@
     "paper-material": "polymerelements/paper-material#^1.0.0",
     "paper-behaviors": "polymerelements/paper-behaviors#^1.0.0",
     "iron-flex-layout": "polymerelements/iron-flex-layout#^1.0.0",
-    "iron-icon": "polymerelements/iron-icon#^1.0.0",
-    "iron-icons": "polymerelements/iron-icons#^1.0.0",
     "paper-styles": "polymerelements/paper-styles#^1.0.0",
     "polymer": "Polymer/polymer#^1.0.0"
   },
